@@ -4,9 +4,9 @@
 ## win 11
 
 ### fileLink.bat
-根据文件类型创建文件链接，硬链接，符号链接等
-用来在不影响软件使用的情况下转移C盘文件
-[cmd/bat文件download link](https://github.com/lqfy-jhc/system-help-handbooks/blob/main/%E8%B5%A211/fileLink.bat)
++ 根据文件类型创建文件链接，硬链接，符号链接等
++ 用来在不影响软件使用的情况下转移C盘文件
++ [cmd/bat文件download link](https://github.com/lqfy-jhc/system-help-handbooks/blob/main/%E8%B5%A211/fileLink.bat)
 ### application＿icon.bat
 
 + 解决桌面应用图标异常(图标变成白板)
