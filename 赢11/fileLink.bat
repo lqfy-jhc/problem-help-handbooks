@@ -8,11 +8,13 @@ set CLinkBoxPath=%mappingPath%
 ::rem 脚本所在地即为链接生成地
 set tagHome=%~dp0
 set OLinkBoxPath=%~d1\LinkBox\
-set Obat=%CLinkBoxPath%跨盘符需管理员权限%~n1.bat
+::set Obat=%CLinkBoxPath%跨盘符需管理员权限%~n1.bat
+::rem 方案2,脚本所在地生成脚本及链接文件
+set Obat=%tagHome%跨盘符需管理员权限%~n1.bat
 ::rem 创建脚本及映射目录
 if exist %CLinkBoxPath% ( echo "%CLinkBoxPath%%~nx1" ) else ( mkdir %CLinkBoxPath% )
 ::rem 核验变量
-echo attribute：%attribute%
+::echo attribute：%attribute%
 ::echo flieAttribute：%flieAttribute%
 ::echo directoryAttribute：%directoryAttribute%
 
@@ -60,7 +62,7 @@ if "C:"=="%~d1" ( goto intoC ) else ( goto intoO )
         ) >> %Obat%
     )
     (
-        echo del %Obat%
+        echo del %%0
     ) >> %Obat%
     goto end
 
@@ -94,7 +96,13 @@ if "C:"=="%~d1" ( goto intoC ) else ( goto intoO )
 ::            echo "-----------D"
 ::        )>"%CLinkBoxPath%%~n1.bat"
 ::    )
+::    (
+::        echo del %0
+::        rem echo del %Obat%
+::    ) >> %Obat%
 ::    goto end
-    
+
 :end
+
+::del %0
 ::pause
