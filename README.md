@@ -6,23 +6,23 @@
 - 通过收集进行学习，最终编写脚本维护电脑
 - 工具目录如下
 
-# 系统树
+## 系统
 
-## Windows
+### Windows
 
-### [win 11](https://github.com/lqfy-jhc/system-help-handbooks/blob/e91b6628e2e5805b3fe776b90d4f54f9b351796d/%E8%B5%A211/readme.md)
+#### [win 11](https://github.com/lqfy-jhc/system-help-handbooks/blob/e91b6628e2e5805b3fe776b90d4f54f9b351796d/%E8%B5%A211/readme.md)
 
-### win 10(计划中，欢迎参与)
+#### win 10(计划中，欢迎参与)
 
-### win 8(计划中，欢迎参与)
+#### win 8(计划中，欢迎参与)
 
-### win 7(计划中，欢迎参与)
+#### win 7(计划中，欢迎参与)
 
-## Linux
+### Linux
 
-### Ubuntu
+#### Ubuntu
 
-### Debian
+#### Debian
 
 ## 后续计划
 
